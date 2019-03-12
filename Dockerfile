@@ -13,4 +13,4 @@ RUN /setup/setup.sh
 EXPOSE 22
 
 # Run bash when the container launches
-CMD ["/usr/sbin/init"]
+CMD ["/bin/bash"]
